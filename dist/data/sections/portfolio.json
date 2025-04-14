@@ -1,0 +1,191 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        }
+    },
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {
+                "layout": "grid",
+                "showCategories": true,
+                "cardStyle": "elevated"
+            },
+            "locales": {},
+            "categories": [
+                {
+                    "id": "web_applications",
+                    "locales": {
+                        "en": {
+                            "singular": "Web Application",
+                            "plural": "Web Applications"
+                        }
+                    }
+                },
+                {
+                    "id": "automation_projects",
+                    "locales": {
+                        "en": {
+                            "singular": "Automation Project",
+                            "plural": "Automation Projects"
+                        }
+                    }
+                },
+                {
+                    "id": "desktop_applications",
+                    "locales": {
+                        "en": {
+                            "singular": "Desktop Application",
+                            "plural": "Desktop Applications"
+                        }
+                    }
+                }
+            ],
+            "items": [
+
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/portfolio.png",
+                        "fa": "fa-solid fa-folder",
+                        "faColors": { "bg": "#61DAFB", "fill": "#FFFFFF" }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/Lovelyt-02"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "#" 
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Portfolio",
+                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Netlifly</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
+                            "tags": [
+                                "React",
+                                "Vite",
+                                "JavaScript",
+                                "React Router",
+                                "Responsive Design",
+                                "Performance Optimization",
+                                "Dark/Light Themes",
+                                "No Backend"
+                            ]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/weatherlogo.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://github.com/Lovelyt-02"
+                        }
+                    ],
+                    "media": {
+                    
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Weather App",
+                            "text": "<p>A real-time weather application.</p><ul><li>Built using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>RESTful APIs</strong>.</li><li>Displays live weather data with interactive UI.</li><li>Implemented responsive design for various devices.</li></ul>",
+                            "tags": [
+                                "JavaScript",
+                                "RESTful APIs",
+                                "Responsive Design",
+                                "Weather Data"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "automation_projects",
+                    "icon": {
+                        "img": "images/pictures/excel_automation_logo.png",
+                        "fa": "fa-solid fa-file-excel",
+                        "faColors": { "bg": "#217346", "fill": "#FFFFFF" }
+                    },
+                    "links": [],
+                    "media": {
+                        
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": [
+                                "images/projects/excel_automation_screenshot1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Excel Automation",
+                            "text": "<p>Automated data entry and report generation.</p><ul><li>Used <strong>UiPath</strong> for automation workflows.</li><li>Streamlined data extraction processes.</li><li>Generated Excel reports efficiently.</li></ul>",
+                            "tags": [
+                                "UiPath",
+                                "Automation",
+                                "Excel",
+                                "Data Entry"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "automation_projects",
+                    "icon": {
+                        "img": "images/pictures/webautomation.png",
+                        "fa": "fa-solid fa-globe",
+                        "faColors": { "bg": "#FFFFF", "fill": "#FFFFFF" }
+                    },
+                    "links": [],
+                    "media": {
+                    
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": [
+                                "images/projects/web_automation_screenshot1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web Automation",
+                            "text": "<p>Automated repetitive web-based tasks.</p><ul><li>Developed workflows using <strong>UiPath</strong>.</li><li>Reduced manual effort and error rates significantly.</li><li>Improved efficiency in web interactions.</li></ul>",
+                            "tags": [
+                                "UiPath",
+                                "Automation",
+                                "Web Tasks",
+                                "Efficiency"
+                            ]
+                        }
+                    }
+                }
+                
+                
+            ]
+        }
+    ]
+}

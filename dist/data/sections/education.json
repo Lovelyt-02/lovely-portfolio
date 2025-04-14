@@ -1,0 +1,60 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/Saraswati_school.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/15/2005",
+                        "end": "05/31/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Primary, Secondary and Higher Education",
+                            "info": "**Saraswati Higher Secondary School**, Krishna Nagar Satna, Madhya Pradesh",
+                            "text": "Completed high school with **First Class** grade, focusing on foundational studies in science and mathematics.",
+                            "tags": ["First Class"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/Jiwaji_University.jpg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2021",
+                        "end": "05/30/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "B.tech in Computer Science Engineering",
+                            "info": "**Institute of Engineering Jiwaji University Gwalior**",
+                            "text": "Pursuing Bachelor's degree with a **CGPA of 7.2/10**. Relevant coursework includes Web Development, Data Structures, Computer Networking and Operating Systems.",
+                            "tags": ["c/c++", "ReactJS", "Data Structures", "Algorithms"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

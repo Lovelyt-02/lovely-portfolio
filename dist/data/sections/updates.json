@@ -1,0 +1,154 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life Recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        }
+    },
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3+",
+                            "info": "Projects Completed"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2",
+                            "info": "Internships Completed"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-certificate",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "info": "Certifications Earned"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "30%",
+                            "info": "Process Efficiency Improved"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Recent **Activities**" }
+            },
+            "items": [
+                {
+                    "dates": {
+                        "start": "9/28/2024",
+                        "end": null
+                    },
+                    "links": [
+                       
+                        { "string": "Live Demo", "href": "https://recipe-web-six.vercel.app/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched **Recipe Web App**",
+                            "text": "Successfully deployed **Recipe Web App**, a responsive and feature-rich platform developed using **React**. The website offers real-time search, category filters. Deployed on **Vercel** for optimized performance and continuous deployment."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "08/30/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Project", "href": "https://github.com/rajsanadi/WorkFlow360" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched **Spotify Clone**",
+                            "text": "Successfully launched **Spotify Clone**,A sleek Spotify clone built with **React** and **CSS**, delivering a smooth and responsive music streaming experience."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "06/03/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Completed Internship at **Shyontech Software Technology Pvt. Ltd**",
+                            "text": "Contributed as a Web Developer Intern, designing and developing full-stack web applications using **Java** and **React**."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "04/09/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Completed Training at **Acmegrade Pvt. Ltd**",
+                            "text": "Worked as a Web Developer Trainee, developing full-stack web applications using **Frontend** and **Backend** technologies, which improved process efficiency by 30%."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "11/10/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "View Certificate", "href": "https://drive.google.com/file/d/10IHSptN5T-HIJ_rVAcCg_SrB6rdVLuQO/view" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Earned **Full-Stack development using Java Programming Certification**",
+                            "text": "Completed the Advanced Java Programming course on Shyontech, enhancing my skills in Java development."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

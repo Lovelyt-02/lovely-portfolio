@@ -1,0 +1,99 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Send me a **message**"
+                }
+            },
+            "items": null
+        },
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Or if you **prefer**..."
+                }
+            },
+            "items": [
+                {
+                    "value": "Download Resume",
+                    "links": [
+                        {
+                            "href": "",
+                            "download": true
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-file-alt",
+                        "faColors": {
+                            "bg": "#6C757D",
+                            "fill": "#FFFFFF"
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Resume"
+                        }
+                    }
+                },
+                {
+                    "value": "Lovely Tiwari",
+                    "links": [
+                        {
+                            "href": "https://www.linkedin.com/in/lovely-tiwari-976b14228" }
+                        ],
+                        "icon": {
+                            "img": null,
+                            "fa": "fa-brands fa-linkedin",
+                            "faColors": {
+                                "bg": "#0A66C2",
+                                "fill": "#FFFFFF"
+                            }
+                        },
+                        "locales": {
+                            "en": {
+                                "title": "LinkedIn"
+                            }
+                        }
+                    },
+                    {
+                        "value": "lovelyt7989@gmail.com",
+                        "links": [
+                            {
+                                "href": "mailto:lovelyt7989@gmail.com"
+                            }
+                        ],
+                        "icon": {
+                            "img": null,
+                            "fa": "fa-solid fa-envelope",
+                            "faColors": {
+                                "bg": null,
+                                "fill": null
+                            }
+                        },
+                        "locales": {
+                            "en": {
+                                "title": "E-mail"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,76 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/galas-it-solutions.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "10/24/2024",
+                        "end": "04/24/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**MERN-Stack Developer Intern**",
+                            "info": "Galas It Solutions Pvt. Ltd, Varanasi-UP (Remote)",
+                            "text": "<ul><li>Designed and developed multiple Full-stack web applications using **ExpressJs**, <strong>MVC</strong>, <strong>React</strong> with <strong>Redux</strong> and **Redux Toolkit**, and <strong>MongoDB</strong>.</li><li>Integrated **RESTful APIs** with front-end interfaces through **Axios** and <strong>TanStack Query</strong> for secure and efficient data exchange.</li><li>Utilized company-specific custom **System Architecture** to enhance maintainability and scalability across various web applications.</li><li>Built project components with <strong>React</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>**MUI**</strong>.</li><li>Collaborated on daily development tasks, meeting project milestones and optimizing development workflows in an <strong>**Agile**</strong> environment.</li></ul>",
+                            "tags": [
+                                "ExpressJS",
+                                "React",
+                                "Redux",
+                                "MVC",
+                                "MongoDB",
+                                "System Architecture",
+                                "Axios",
+                                "TanStack Query",
+                                "Tailwind CSS",
+                                "MUI",
+                                "Agile"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/shyontech_logo.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "06/03/2024",
+                        "end": "06/30/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Web Developer Intern**",
+                            "info": "Shyontech Software Technology, Gwalior-MP (On-Site)",
+                            "text": "<ul><li>Developed Web apllication with **Java**, improving process efficiency by <strong>30%</strong>.</li><li>Created web applications with standard HTML, CSS and JavaScript, enhancing user experience.</li><li>Worked closely with mentors to understand project requirements and deliver solutions.</li></ul>",
+                            "tags": [
+                                "Java",
+                                "Rest API",
+                                "JavaScript",
+                                "Automation"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
