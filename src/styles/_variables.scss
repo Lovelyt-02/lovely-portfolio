@@ -55,9 +55,9 @@ $loader-background-color: #111111;
     --theme-soft-2: #252525;
     --theme-soft-3: #292929;
 
-    --theme-highlight: #9dff8e;
-    --theme-highlight-2: #b5ffa9;
-    --theme-highlight-3: #d5fdcd;
+    --theme-highlight: #9df58d;
+    --theme-highlight-2: #97f9b6;
+    --theme-highlight-3: #eafcf2;
 
     --theme-dark: #101010;
     --theme-dark-opacity: rgba(16, 16, 16, 0.2);
@@ -87,45 +87,45 @@ $loader-background-color: #111111;
 
 /** COLORS - light theme palette **/
 [data-theme="light"] {
-    --theme-main: #9adbaf;
-    --theme-main-2: #8ec9a1;
-    --theme-main-3: #82b791;
-    --theme-main-4: #7db08e;
+    --theme-main: #9ad7db;
+    --theme-main-2: #8ec9bc;
+    --theme-main-3: #82b7b3;
+    --theme-main-4: #7db0ac;
 
     --theme-secondary: #404b41;
     --theme-secondary-2: #49564a;
     --theme-secondary-3: #576758;
     --theme-secondary-4: #5e6c5e;
 
-    --theme-soft: #c3e3cb;
-    --theme-soft-2: #bfdec7;
-    --theme-soft-3: #bad9c2;
+    --theme-soft: #c3e3e0;
+    --theme-soft-2: #bfdedc;
+    --theme-soft-3: #bad9cf;
 
     --theme-dark: #daf5e4;
     --theme-dark-opacity: rgba(218, 245, 228, 0.2);
     --theme-muted: #7c8d7f;
     --theme-white: #ffffff;
 
-    --theme-highlight: #269366;
-    --theme-highlight-2: #207956;
-    --theme-highlight-3: #1a6447;
+    --theme-highlight: #267493;
+    --theme-highlight-2: #205579;
+    --theme-highlight-3: #1a5064;
 
     --theme-bg: url('/images/css/bg-green.png');
-    --theme-bg-color: #9adbaf;
-    --theme-section-background: #caecd5;
-    --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
-    --theme-tag-color: #b1ccbd;
+    --theme-bg-color: #cbeeee;
+    --theme-section-background: #e7eff1;
+    --theme-section-background-opacity: rgba(227, 235, 239, 0.9);
+    --theme-tag-color: #b1c1e0;
     --theme-box-shadow: none;
 
-    --theme-nav-background: #caecd5;
+    --theme-nav-background: #e7eff1;
     --theme-nav-background-disabled: #c5e6d0;
     --theme-nav-secondary: #4f5b50;
-    --theme-nav-light: rgba(217, 243, 222, 0.5);
+    --theme-nav-light: rgba(227, 235, 239, 0.9);
     --theme-nav-highlight: #d7f1e3;
-    --theme-nav-selected: #269366;
+    --theme-nav-selected: #447298;
 
     --theme-scrollbar-track: #c3e4cc;
-    --theme-scrollbar-thumb: #55bd91;
+    --theme-scrollbar-thumb: #5587bd;
     --theme-chart-borders: #e7f6e3;
 
     --theme-danger: #fad6d6;

@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/lovely-portfolio/',
+  base: '/',
   plugins: [react({ fastRefresh: true })], // Ensures React Fast Refresh is enabled
   css: {
     preprocessorOptions: {
