@@ -50,6 +50,46 @@
                 {
                     "categoryId": "web_applications",
                     "icon": {
+                        "img": "images/pictures/Recipe-web.png",
+                        "fa": "fa-solid fa-folder",
+                        "faColors": { "bg": "#61DAFB", "fill": "#FFFFFF" }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/Lovelyt-02"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://recipe-web-six.vercel.app/" 
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Recipe Web App",
+                            "text": "<p>Responsive Recipe platform using ReactJS</p><ul><li>Developed a responsive recipe web app with secure user authentication, dark/light mode toggle, and real-time data fetching from a public API.</li><li>Implemented modular React components, integrated login via API, and deployed the app on Vercel for seamless performance across devices.</li></ul>",
+                            "tags": [
+                                "React",
+                                "Vite",
+                                "JavaScript",
+                                "Responsive Design",
+                                "Performance Optimization",
+                                "Login/Logout Functionality",
+                                "Dark/Light Themes"
+                            ]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "web_applications",
+                    "icon": {
                         "img": "images/pictures/portfolio.png",
                         "fa": "fa-solid fa-folder",
                         "faColors": { "bg": "#61DAFB", "fill": "#FFFFFF" }
@@ -61,7 +101,7 @@
                         },
                         {
                             "faIcon": "fa-solid fa-link",
-                            "href": "#" 
+                            "href": "https://lovely-portfolio-git-main-lovely-tiwaris-projects-0aae7f4a.vercel.app/" 
                         }
                     ],
                     "media": {
@@ -73,7 +113,7 @@
                     "locales": {
                         "en": {
                             "title": "Portfolio",
-                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Netlifly</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
+                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Vercel</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
                             "tags": [
                                 "React",
                                 "Vite",
