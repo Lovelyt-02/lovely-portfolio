@@ -47,6 +47,87 @@
             ],
             "items": [
 
+                 {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/user-home.png",
+                        "fa": "fa-solid fa-file-excel",
+                        "faColors": { "bg": "#217346", "fill": "#FFFFFF" }
+                    },
+                    "links": [
+                         {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://github.com/Lovelyt-02/Bytes-Career-sync"
+                        }
+                    ],
+                    "media": {
+                        
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/Application-job.png",
+                               "images/pictures/job-empTracker.png",
+                               "images/pictures/job-rolebase-signup.png",
+                               "images/pictures/Recruiter-home.png",
+                               "images/pictures/user-ats.png",
+                                "images/pictures/user-home.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bytes Career Sync",
+                            "text": "<p>A web application for job seekers and recruiters.</p><ul><li>Used <strong>MERN stack</strong> for Design and development.</li><li>Implemented <strong>React</strong> and <strong>Redux</strong> for state management.</li><li>.Provides Rolebased and Jobbased Signups.</li><li>Uses <strong>Apllications Tracking System</strong> for Checking the applications status.</li></ul>",
+                            "tags": [
+                                "MERN stack",
+                                "Redux",
+                                "Socket.io",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                } ,
+
+                  {
+                    "categoryId": "web_applications",
+                    "icon": {
+                        "img": "images/pictures/community-1.png",
+                        "fa": null,
+                        "faColors": {}
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://github.com/Lovelyt-02/Community"
+                        }
+                    ],
+                    "media": {
+                    
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/community-1.png",
+                                "images/pictures/community-2.png"
+                            ]
+                        }
+                    },
+
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Community Web",
+                            "text": "<p>A real-time question and answer platform.</p><ul><li>Built using <strong>React</strong>, <strong>CSS/SCSS</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>.</li><li>Displays Questions with real-time answers.</li><li>Implemented responsive design for various devices.</li></ul>",
+                            "tags": [
+                                "React.js",
+                                "Express.js",
+                                "Responsive Design",
+                                "Socket.io",
+                                "mongodb"
+                            ]
+                        }
+                    }
+                },
+
                 {
                     "categoryId": "web_applications",
                     "icon": {
@@ -57,7 +138,7 @@
                     "links": [
                         {
                             "faIcon": "fa-brands fa-github",
-                            "href": "https://github.com/Lovelyt-02"
+                            "href": "https://github.com/Lovelyt-02/Recipe-web"
                         },
                         {
                             "faIcon": "fa-solid fa-link",
@@ -97,11 +178,11 @@
                     "links": [
                         {
                             "faIcon": "fa-brands fa-github",
-                            "href": "https://github.com/Lovelyt-02"
+                            "href": "https://github.com/Lovelyt-02/lovely-portfolio"
                         },
                         {
                             "faIcon": "fa-solid fa-link",
-                            "href": "https://lovely-portfolio-git-main-lovely-tiwaris-projects-0aae7f4a.vercel.app/" 
+                            "href": "https://lovely-portfolio-phi.vercel.app/" 
                         }
                     ],
                     "media": {
@@ -113,7 +194,7 @@
                     "locales": {
                         "en": {
                             "title": "Portfolio",
-                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Vercel</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
+                            "text": "<p>A personal portfolio website showcasing my projects and skills.</p><ul><li>Built using <strong>React</strong> and <strong>Vite</strong> for a fast and optimized development experience.</li><li>Implemented responsive design using <strong>Smooth Scroller</strong>, <strong>Swipper</strong> to ensure seamless interactive viewing across devices.</li><li>Integrated animations and interactive elements.</li><li>Optimized performance with code-splitting and lazy loading.</li><li>Deployed on <strong>Netlifly</strong> for continuous deployment and easy scalability.</li></ul><p><strong>Key Features:</strong></p><ul><li>Lightweight and fully responsive.</li><li>Adapts perfectly to mobile screens.</li><li>Comes with both dark and light theme options.</li><li>Uses Vite for packaging.</li></ul>",
                             "tags": [
                                 "React",
                                 "Vite",
@@ -126,105 +207,8 @@
                             ]
                         }
                     }
-                },
-
-                {
-                    "categoryId": "web_applications",
-                    "icon": {
-                        "img": "images/pictures/weatherlogo.png",
-                        "fa": null,
-                        "faColors": {}
-                    },
-                    "links": [
-                        {
-                            "faIcon": "fa-solid fa-link",
-                            "href": "https://github.com/Lovelyt-02"
-                        }
-                    ],
-                    "media": {
-                    
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": []
-                        }
-                    },
-
-                    
-                    "locales": {
-                        "en": {
-                            "title": "Weather App",
-                            "text": "<p>A real-time weather application.</p><ul><li>Built using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>RESTful APIs</strong>.</li><li>Displays live weather data with interactive UI.</li><li>Implemented responsive design for various devices.</li></ul>",
-                            "tags": [
-                                "JavaScript",
-                                "RESTful APIs",
-                                "Responsive Design",
-                                "Weather Data"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "categoryId": "automation_projects",
-                    "icon": {
-                        "img": "images/pictures/excel_automation_logo.png",
-                        "fa": "fa-solid fa-file-excel",
-                        "faColors": { "bg": "#217346", "fill": "#FFFFFF" }
-                    },
-                    "links": [],
-                    "media": {
-                        
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": [
-                                "images/projects/excel_automation_screenshot1.png"
-                            ]
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Excel Automation",
-                            "text": "<p>Automated data entry and report generation.</p><ul><li>Used <strong>UiPath</strong> for automation workflows.</li><li>Streamlined data extraction processes.</li><li>Generated Excel reports efficiently.</li></ul>",
-                            "tags": [
-                                "UiPath",
-                                "Automation",
-                                "Excel",
-                                "Data Entry"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "categoryId": "automation_projects",
-                    "icon": {
-                        "img": "images/pictures/webautomation.png",
-                        "fa": "fa-solid fa-globe",
-                        "faColors": { "bg": "#FFFFF", "fill": "#FFFFFF" }
-                    },
-                    "links": [],
-                    "media": {
-                    
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": [
-                                "images/projects/web_automation_screenshot1.png"
-                            ]
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Web Automation",
-                            "text": "<p>Automated repetitive web-based tasks.</p><ul><li>Developed workflows using <strong>UiPath</strong>.</li><li>Reduced manual effort and error rates significantly.</li><li>Improved efficiency in web interactions.</li></ul>",
-                            "tags": [
-                                "UiPath",
-                                "Automation",
-                                "Web Tasks",
-                                "Efficiency"
-                            ]
-                        }
-                    }
                 }
-                
-                
+                 
             ]
         }
     ]
